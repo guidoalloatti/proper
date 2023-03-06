@@ -1,0 +1,318 @@
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 1.0ms | Allocations: 2421)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1245)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 1245)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 1245)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1245)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 1246)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 1.1ms | Allocations: 2421)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 1245)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1245)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 1245)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 1245)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1246)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 1.1ms | Allocations: 2335)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 9.7ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1021)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 1.1ms | Allocations: 2331)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1021)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 1.0ms | Allocations: 2331)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 9.5ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1021)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 1.0ms | Allocations: 2331)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1021)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 1.1ms | Allocations: 2331)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1021)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 1.1ms | Allocations: 2331)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 9.9ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1021)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 1.2ms | Allocations: 2331)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 9.8ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1021)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 1.2ms | Allocations: 2331)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1021)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 1.1ms | Allocations: 2331)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 9.8ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1021)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 1.0ms | Allocations: 2331)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1021)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
