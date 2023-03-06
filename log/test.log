@@ -316,3 +316,815 @@
   Rendering home/index.html.erb
   Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
   [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 2305)
+  Rendered layout layouts/application.html.erb (Duration: 723.4ms | Allocations: 109620)
+Completed 200 OK in 727ms (Views: 724.7ms | ActiveRecord: 0.0ms | Allocations: 112618)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 953)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 2401)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 2733)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 953)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 2401)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 2729)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 953)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 2401)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 2729)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_images as HTML
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 327)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_images as HTML
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 229)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"image.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 184)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"image.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 173)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"nonexistent.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 165)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1023)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 3.6ms | Allocations: 1021)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 2649)
+  Rendered layout layouts/application.html.erb (Duration: 683.8ms | Allocations: 54925)
+Completed 200 OK in 687ms (Views: 684.9ms | ActiveRecord: 0.0ms | Allocations: 57927)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | Allocations: 2670)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 3009)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 2670)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 3005)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 2670)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 3005)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_images as HTML
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 343)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_images as HTML
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 229)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"image.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 178)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"image.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 173)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"nonexistent.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 165)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 2648)
+  Rendered layout layouts/application.html.erb (Duration: 649.2ms | Allocations: 54939)
+Completed 200 OK in 652ms (Views: 650.3ms | ActiveRecord: 0.0ms | Allocations: 57941)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 2670)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 3009)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 2670)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 3005)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 2670)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 3005)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#download as HTML
+  Parameters: {"amount"=>"1", "threads"=>"1"}
+Redirected to http://test.host/?amount=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 578)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#download as HTML
+  Parameters: {"amount"=>"1", "threads"=>"1"}
+Redirected to http://test.host/?amount=1
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 360)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#download as HTML
+  Parameters: {"amount"=>"0", "threads"=>"1"}
+No template found for HomeController#download, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 396)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_images as HTML
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 258)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_images as HTML
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 229)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"image.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 178)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"image.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 173)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"nonexistent.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 165)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 2648)
+  Rendered layout layouts/application.html.erb (Duration: 630.7ms | Allocations: 54803)
+Completed 200 OK in 634ms (Views: 631.8ms | ActiveRecord: 0.0ms | Allocations: 57804)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 2670)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 3009)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 2670)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 3005)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 2670)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 3005)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#download as HTML
+  Parameters: {"amount"=>"1", "threads"=>"1"}
+Redirected to http://test.host/?amount=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 578)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#download as HTML
+  Parameters: {"amount"=>"1", "threads"=>"1"}
+Redirected to http://test.host/?amount=1
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 360)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#download as HTML
+  Parameters: {"amount"=>"0", "threads"=>"1"}
+No template found for HomeController#download, rendering head :no_content
+Completed 204 No Content in 3ms (ActiveRecord: 0.0ms | Allocations: 396)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_images as HTML
+Redirected to http://test.host/
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 258)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_images as HTML
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 229)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"image.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 178)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"image.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 173)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"nonexistent.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 165)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 2648)
+  Rendered layout layouts/application.html.erb (Duration: 639.6ms | Allocations: 55363)
+Completed 200 OK in 643ms (Views: 640.7ms | ActiveRecord: 0.0ms | Allocations: 58364)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 2670)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 3009)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 2670)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 3005)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 2670)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 3005)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#download as HTML
+  Parameters: {"amount"=>"1", "threads"=>"1"}
+Redirected to http://test.host/?amount=1
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 578)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#download as HTML
+  Parameters: {"amount"=>"1", "threads"=>"1"}
+Redirected to http://test.host/?amount=1
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 360)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#download as HTML
+  Parameters: {"amount"=>"0", "threads"=>"1"}
+No template found for HomeController#download, rendering head :no_content
+Completed 204 No Content in 3ms (ActiveRecord: 0.0ms | Allocations: 396)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_images as HTML
+Redirected to http://test.host/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 258)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_images as HTML
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 229)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"image.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 178)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"image.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 173)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"nonexistent.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 165)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 2648)
+  Rendered layout layouts/application.html.erb (Duration: 666.5ms | Allocations: 55321)
+Completed 200 OK in 670ms (Views: 667.6ms | ActiveRecord: 0.0ms | Allocations: 58322)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | Allocations: 2670)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 3009)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 2670)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 3005)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 2670)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 3005)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#download as HTML
+  Parameters: {"amount"=>"1", "threads"=>"1"}
+Redirected to http://test.host/?amount=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 578)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#download as HTML
+  Parameters: {"amount"=>"1", "threads"=>"1"}
+Redirected to http://test.host/?amount=1
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 360)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#download as HTML
+  Parameters: {"amount"=>"0", "threads"=>"1"}
+No template found for HomeController#download, rendering head :no_content
+Completed 204 No Content in 3ms (ActiveRecord: 0.0ms | Allocations: 396)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_images as HTML
+Redirected to http://test.host/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 258)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_images as HTML
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 229)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"image.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 178)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"image.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 173)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"nonexistent.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 165)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 2648)
+  Rendered layout layouts/application.html.erb (Duration: 649.9ms | Allocations: 55329)
+Completed 200 OK in 653ms (Views: 650.9ms | ActiveRecord: 0.0ms | Allocations: 58330)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 2670)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 3009)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 2670)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 3005)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 2670)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 3005)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#download as HTML
+  Parameters: {"amount"=>"1", "threads"=>"1"}
+Redirected to http://test.host/?amount=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 578)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#download as HTML
+  Parameters: {"amount"=>"1", "threads"=>"1"}
+Redirected to http://test.host/?amount=1
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 360)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#download as HTML
+  Parameters: {"amount"=>"0", "threads"=>"1"}
+No template found for HomeController#download, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 396)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_images as HTML
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 258)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_images as HTML
+Redirected to http://test.host/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 229)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"image.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 178)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"image.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 173)
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"nonexistent.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 165)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 2648)
+  Rendered layout layouts/application.html.erb (Duration: 694.3ms | Allocations: 55549)
+Completed 200 OK in 697ms (Views: 695.4ms | ActiveRecord: 0.0ms | Allocations: 58550)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 2670)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 3009)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 2670)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 3005)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 2670)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 3005)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#download as HTML
+  Parameters: {"amount"=>"1", "threads"=>"1"}
+Redirected to http://test.host/?amount=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 578)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#download as HTML
+  Parameters: {"amount"=>"1", "threads"=>"1"}
+Redirected to http://test.host/?amount=1
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 360)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#download as HTML
+  Parameters: {"amount"=>"0", "threads"=>"1"}
+No template found for HomeController#download, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 396)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_images as HTML
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 258)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_images as HTML
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 229)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"image.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 178)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"image.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 173)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"nonexistent.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 165)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 2648)
+  Rendered layout layouts/application.html.erb (Duration: 643.3ms | Allocations: 54946)
+Completed 200 OK in 646ms (Views: 644.4ms | ActiveRecord: 0.0ms | Allocations: 57948)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 2670)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 3009)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 2670)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 3005)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 2670)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 3005)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#download as HTML
+  Parameters: {"amount"=>"1", "threads"=>"1"}
+Redirected to http://test.host/?amount=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 578)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#download as HTML
+  Parameters: {"amount"=>"1", "threads"=>"1"}
+Redirected to http://test.host/?amount=1
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 360)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#download as HTML
+  Parameters: {"amount"=>"0", "threads"=>"1"}
+No template found for HomeController#download, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 396)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_images as HTML
+Redirected to http://test.host/
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 258)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_images as HTML
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 229)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"image.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 178)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"image.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 173)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"nonexistent.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 165)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 2646)
+  Rendered layout layouts/application.html.erb (Duration: 641.8ms | Allocations: 54926)
+Completed 200 OK in 645ms (Views: 642.9ms | ActiveRecord: 0.0ms | Allocations: 57932)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 2670)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 3009)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 2670)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 3005)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 2670)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 3005)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#download as HTML
+  Parameters: {"amount"=>"1", "threads"=>"1"}
+Redirected to http://test.host/?amount=1
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 578)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#download as HTML
+  Parameters: {"amount"=>"1", "threads"=>"1"}
+Redirected to http://test.host/?amount=1
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 360)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#download as HTML
+  Parameters: {"amount"=>"0", "threads"=>"1"}
+No template found for HomeController#download, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 396)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_images as HTML
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 258)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_images as HTML
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 229)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"image.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 178)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"image.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 173)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by HomeController#remove_image as HTML
+  Parameters: {"image"=>{"name"=>"nonexistent.jpg"}}
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 165)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 4.9ms | Allocations: 1023)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.9ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 1021)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 1020)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m

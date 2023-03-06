@@ -38,7 +38,7 @@ RSpec.describe HomeController, type: :controller do
 
       it 'sets the flash message' do
         post :download, params: { amount: 1, threads: 1 }
-        expect(flash[:alert]).to match(/Extraction Summary:/)
+        expect(flash[:success]).to match(/Extraction Summary:/)
       end
     end
 
@@ -58,7 +58,7 @@ RSpec.describe HomeController, type: :controller do
 
     it 'sets the flash message' do
       delete :remove_images
-      expect(flash[:alert]).to eq('All images removed successfully!')
+      expect(flash[:danger]).to eq('All images removed successfully!')
     end
   end
 

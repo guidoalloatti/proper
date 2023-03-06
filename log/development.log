@@ -14416,3 +14416,70 @@ Processing by HomeController#index as TURBO_STREAM
 Completed 200 OK in 5ms (Views: 4.0ms | Allocations: 3706)
 
 
+Started GET "/" for ::1 at 2023-03-06 17:02:55 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 988)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 3219)
+Completed 200 OK in 8ms (Views: 6.3ms | Allocations: 3682)
+
+
+Started GET "/?threads=1&amount=1&download=Download+images" for ::1 at 2023-03-06 17:05:51 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"threads"=>"1", "amount"=>"1", "download"=>"Download images"}
+Redirected to http://localhost:3000/?amount=1
+Completed 302 Found in 1367ms (Allocations: 2392)
+
+
+Started GET "/?amount=1" for ::1 at 2023-03-06 17:05:52 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"amount"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1380)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 3611)
+Completed 200 OK in 10ms (Views: 9.0ms | Allocations: 4129)
+
+
+Started POST "/remove_images" for ::1 at 2023-03-06 17:06:38 -0300
+Processing by HomeController#remove_images as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (Allocations: 440)
+
+
+Started GET "/" for ::1 at 2023-03-06 17:06:38 -0300
+Processing by HomeController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 989)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 3220)
+Completed 200 OK in 6ms (Views: 4.9ms | Allocations: 3694)
+
+
+Started GET "/" for ::1 at 2023-03-06 17:06:43 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 988)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 3219)
+Completed 200 OK in 7ms (Views: 6.2ms | Allocations: 3694)
+
+
+Started POST "/remove_images" for ::1 at 2023-03-06 17:12:25 -0300
+Processing by HomeController#remove_images as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (Allocations: 675)
+
+
+Started GET "/" for ::1 at 2023-03-06 17:12:25 -0300
+Processing by HomeController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1519)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 15340)
+Completed 200 OK in 11ms (Views: 10.6ms | Allocations: 16119)
+
+
