@@ -33,19 +33,24 @@ Using a simple page, we can process and administer the requested images download
 Attaching some screens to help visualize how this looks and feels, also how it works.
 
 ## Administration
-![Screenshot 2023-03-03 at 20 56 46](https://user-images.githubusercontent.com/361355/222857018-4180fddf-bb80-43c6-9351-508014455f7d.png)
+![Screenshot 2023-03-06 at 17 03 00](https://user-images.githubusercontent.com/361355/223218734-b416af20-8028-4f01-b951-024be09f5315.png)
 
 ## Showing the downloaded images
-![Screenshot 2023-03-03 at 20 57 54](https://user-images.githubusercontent.com/361355/222857094-034b7917-de74-4f14-b21a-ff625bc80fcf.png)
+![Screenshot 2023-03-06 at 17 05 59](https://user-images.githubusercontent.com/361355/223218852-07222f6d-ecd5-4520-b4c4-fe9cd4c915a2.png)
 
 ## Notifications area
-![Screenshot 2023-03-03 at 20 58 13](https://user-images.githubusercontent.com/361355/222857138-ed3bcaf0-3af9-440b-98d6-509fd94f91df.png)
+![Screenshot 2023-03-06 at 17 06 42](https://user-images.githubusercontent.com/361355/223218977-138c9c41-5afc-46bf-886c-537bda8e84f8.png)
+![Screenshot 2023-03-06 at 17 06 35](https://user-images.githubusercontent.com/361355/223218982-49a86942-e21d-4b72-827b-dff36c9f0e34.png)
 
-## Functionality
-### Download Images
-### Remove all Images
-### Remove one Image
-### Show all the Images 
-### Set the Amount of images to download
-### Set the Threads to be executed on parallel
+
+## Functionality and further Information
+- Download Images
+- Remove all Images
+- Remove one Image
+- Show all the Images
+- Show image description
+- Show image download date
+- Show total images download
+- Set the Amount of images to download
+- Set the Threads to be executed on parallel
 
