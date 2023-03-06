@@ -43,6 +43,15 @@ Attaching some screens to help visualize how this looks and feels, also how it w
 ![Screenshot 2023-03-06 at 17 06 35](https://user-images.githubusercontent.com/361355/223218982-49a86942-e21d-4b72-827b-dff36c9f0e34.png)
 
 
+## Tests
+Added tests on the controller and on the view in Rspec.
+
+...................
+
+Finished in 0.7323 seconds (files took 0.72868 seconds to load)
+19 examples, 0 failures
+
+
 ## Functionality and further Information
 - Download Images
 - Remove all Images
