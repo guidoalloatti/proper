@@ -104,9 +104,9 @@ class HomeController < ApplicationController
 
     if File.exist?(file_path)
       FileUtils.rm(file_path)
-      flash[:alert] = "Image removed successfully!"
+      flash[:success] = "Image removed successfully!"
     else
-      flash[:alert] = "Image not found."
+      flash[:warning] = "Image not found."
     end
 
     redirect_to root_path

@@ -8,12 +8,6 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 
-<% if flash[:warning] %>
-  <div class="alert alert-warning" role="alert">
-    <%= flash[:warning] %>
-  </div>
-<% end %>
-
 <% if flash[:notice] %>
   <div class="alert alert-primary" role="alert">
     <%= flash[:notice] %>
@@ -94,6 +88,12 @@
 		  <%= flash[:danger] %>
 		</div>
 	<% end %>
+
+  <% if flash[:warning] %>
+    <div class="alert alert-warning" role="alert">
+      <%= flash[:warning] %>
+    </div>
+  <% end %>
 
 	<hr>
 	<br>
