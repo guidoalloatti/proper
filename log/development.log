@@ -14786,3 +14786,30 @@ Processing by HomeController#index as TURBO_STREAM
 Completed 200 OK in 8ms (Views: 6.6ms | Allocations: 3698)
 
 
+Started GET "/" for ::1 at 2023-03-08 01:20:15 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 988)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 3226)
+Completed 200 OK in 7ms (Views: 5.4ms | Allocations: 3695)
+
+
+Started GET "/" for ::1 at 2023-03-08 01:20:17 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 988)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 3223)
+Completed 200 OK in 12ms (Views: 9.7ms | Allocations: 3711)
+
+
+Started GET "/" for ::1 at 2023-03-08 01:20:17 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 988)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 3223)
+Completed 200 OK in 6ms (Views: 5.3ms | Allocations: 3708)
+
+
